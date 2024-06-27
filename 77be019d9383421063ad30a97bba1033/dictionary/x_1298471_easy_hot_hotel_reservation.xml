@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9dd2bd559347421063ad30a97bba1099" label="Reservation" max_length="40" name="x_1298471_easy_hot_hotel_reservation" type="collection">
+        <element label="Check In Date" max_length="40" name="check_in_date" type="glide_date_time"/>
+        <element label="Check Out Date" max_length="40" name="check_out_date" type="glide_date_time"/>
+        <element label="Guest ID" max_length="32" name="guest_id" reference="x_1298471_easy_hot_hotel_guest" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Reservation ID" max_length="40" name="reservation_id" type="string"/>
+        <element label="Room ID" max_length="32" name="room_id" reference="x_1298471_easy_hot_hotel_room" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="confirmed" sequence="0" value="confirmed"/>
+                <element inactive_on_update="false" label="canceled" sequence="1" value="canceled"/>
+                <element inactive_on_update="false" label="on hold" sequence="2" value="on hold"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="guest_id"/>
+        </index>
+        <index name="index2">
+            <element name="room_id"/>
+        </index>
+    </element>
+</database>

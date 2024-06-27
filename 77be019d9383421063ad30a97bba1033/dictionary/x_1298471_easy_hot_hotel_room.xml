@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="78e13d159347421063ad30a97bba1057" label="Room" max_length="40" name="x_1298471_easy_hot_hotel_room" type="collection">
+        <element choice="1" label="Bed Type" max_length="40" name="bed_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Double" sequence="0" value="Double"/>
+                <element inactive_on_update="false" label="Simple" sequence="1" value="Simple"/>
+                <element inactive_on_update="false" label="Queen" sequence="2" value="Queen"/>
+                <element inactive_on_update="false" label="King" sequence="3" value="King"/>
+                <element inactive_on_update="false" label="Jumeaux" sequence="4" value="Jumeaux"/>
+            </choice>
+        </element>
+        <element label="Floor" max_length="40" name="floor" type="integer"/>
+        <element label="Price" max_length="40" name="price" type="integer"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Room ID" max_length="40" name="room_id" type="string"/>
+        <element label="Room Number" max_length="40" name="room_number" type="string"/>
+        <element choice="1" choice_field="preferred_room_type" choice_table="x_1298471_easy_hot_hotel_guest" label="Room Type" max_length="40" name="room_type" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="free" sequence="0" value="free"/>
+                <element inactive_on_update="false" label="busy" sequence="1" value="busy"/>
+                <element inactive_on_update="false" label="in cleaning" sequence="2" value="in cleaning"/>
+            </choice>
+        </element>
+    </element>
+</database>

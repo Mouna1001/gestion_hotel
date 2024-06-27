@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="09d635999347421063ad30a97bba10bb" label="Invoice" max_length="40" name="x_1298471_easy_hot_hotel_invoice" type="collection">
+        <element label="Due date" max_length="40" name="due_date" type="glide_date_time"/>
+        <element label="Guest ID" max_length="32" name="guest_id" reference="x_1298471_easy_hot_hotel_guest" type="reference"/>
+        <element label="Items" max_length="40" name="items" type="string"/>
+        <element label="Notes" max_length="40" name="notes" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Payment status" max_length="40" name="payment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="payed" sequence="0" value="payed"/>
+                <element inactive_on_update="false" label="pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="partially paid" sequence="2" value="partially paid"/>
+            </choice>
+        </element>
+        <element label="Reservation ID" max_length="32" name="reservation_id" reference="x_1298471_easy_hot_hotel_reservation" type="reference"/>
+        <element label="Total Amount" max_length="40" name="total_amount" type="integer"/>
+        <index name="index">
+            <element name="guest_id"/>
+        </index>
+        <index name="index2">
+            <element name="reservation_id"/>
+        </index>
+    </element>
+</database>

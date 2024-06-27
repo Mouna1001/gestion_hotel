@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4234fd559347421063ad30a97bba102c" label="Staff" max_length="40" name="x_1298471_easy_hot_hotel_staff" type="collection">
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element choice="1" label="Role" max_length="40" name="role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="general manager" sequence="0" value="general manager"/>
+                <element inactive_on_update="false" label="receptionist" sequence="1" value="receptionist"/>
+                <element inactive_on_update="false" label="housekeeping" sequence="2" value="housekeeping"/>
+                <element inactive_on_update="false" label="hr manager" sequence="3" value="hr manager"/>
+                <element inactive_on_update="false" label="maintenance" sequence="4" value="maintenance"/>
+                <element inactive_on_update="false" label="chef" sequence="5" value="chef"/>
+                <element inactive_on_update="false" label="food manager" sequence="6" value="food manager"/>
+                <element inactive_on_update="false" label="waitstaff" sequence="7" value="waitstaff"/>
+            </choice>
+        </element>
+        <element choice="1" label="Shift" max_length="40" name="shift" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="morning" sequence="0" value="morning"/>
+                <element inactive_on_update="false" label="afternoon" sequence="1" value="afternoon"/>
+                <element inactive_on_update="false" label="night" sequence="2" value="night"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Staff ID" max_length="40" name="staff_id" type="string"/>
+    </element>
+</database>

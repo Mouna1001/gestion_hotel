@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0ea48fa99303021063ad30a97bba101a" sys_domain="global" table="x_1298471_easy_hot_hotel_service_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_id</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 13:46:33</sys_created_on>
+            <sys_id>c0c4c7e99303021063ad30a97bba101c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1298471_easy_hot_hotel_service_request" sys_domain="global" view="Default view">0ea48fa99303021063ad30a97bba101a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 13:46:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 13:46:33</sys_created_on>
+            <sys_id>44c4c7e99303021063ad30a97bba101c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1298471_easy_hot_hotel_service_request" sys_domain="global" view="Default view">0ea48fa99303021063ad30a97bba101a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 13:46:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reservation_id</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 13:46:33</sys_created_on>
+            <sys_id>c4c4c7e99303021063ad30a97bba101c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1298471_easy_hot_hotel_service_request" sys_domain="global" view="Default view">0ea48fa99303021063ad30a97bba101a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 13:46:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 13:46:33</sys_created_on>
+            <sys_id>48c4c7e99303021063ad30a97bba101c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1298471_easy_hot_hotel_service_request" sys_domain="global" view="Default view">0ea48fa99303021063ad30a97bba101a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 13:46:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 13:46:33</sys_created_on>
+            <sys_id>c8c4c7e99303021063ad30a97bba101c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1298471_easy_hot_hotel_service_request" sys_domain="global" view="Default view">0ea48fa99303021063ad30a97bba101a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 13:46:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 13:46:33</sys_created_on>
+            <sys_id>4cc4c7e99303021063ad30a97bba101c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1298471_easy_hot_hotel_service_request" sys_domain="global" view="Default view">0ea48fa99303021063ad30a97bba101a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 13:46:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1298471_easy_hot_hotel_service_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-27 13:46:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ea48fa99303021063ad30a97bba101a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1298471_easy_hot_hotel_service_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EasyHotel" source="x_1298471_easy_hot">77be019d9383421063ad30a97bba1033</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EasyHotel">77be019d9383421063ad30a97bba1033</sys_scope>
+            <sys_update_name>sys_ui_section_0ea48fa99303021063ad30a97bba101a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 13:46:08</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

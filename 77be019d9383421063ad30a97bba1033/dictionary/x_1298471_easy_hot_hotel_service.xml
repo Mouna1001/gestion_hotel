@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d7d5b9599347421063ad30a97bba10e4" label="Service" max_length="40" name="x_1298471_easy_hot_hotel_service" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Price" max_length="40" name="price" type="integer"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Service ID" max_length="40" name="service_id" type="string"/>
+        <element label="Service Name" max_length="40" name="service_name" type="string"/>
+    </element>
+</database>

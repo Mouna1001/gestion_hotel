@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e925b9d59347421063ad30a97bba10c5" label="Service Request" max_length="40" name="x_1298471_easy_hot_hotel_service_request" type="collection">
+        <element label="Request Date" max_length="40" name="request_date" type="glide_date_time"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Request ID" max_length="40" name="request_id" type="string"/>
+        <element label="Reservation ID" max_length="32" name="reservation_id" reference="x_1298471_easy_hot_hotel_reservation" type="reference"/>
+        <element label="Service ID" max_length="40" name="service_id" reference="x_1298471_easy_hot_hotel_service" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="reservation_id"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a95f41dd9383421063ad30a97bba10ef" label="Guest" max_length="40" name="x_1298471_easy_hot_hotel_guest" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Guest ID" max_length="40" name="guest_id" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element choice="1" label="Preferred room type" max_length="40" name="preferred_room_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="double" sequence="0" value="double"/>
+                <element inactive_on_update="false" label="simple" sequence="1" value="simple"/>
+                <element inactive_on_update="false" label="familialle" sequence="2" value="familialle"/>
+                <element inactive_on_update="false" label="luxe" sequence="3" value="luxe"/>
+            </choice>
+        </element>
+    </element>
+</database>

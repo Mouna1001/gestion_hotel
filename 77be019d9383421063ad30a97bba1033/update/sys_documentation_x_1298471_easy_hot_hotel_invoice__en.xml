@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Invoice" language="en" table="x_1298471_easy_hot_hotel_invoice">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Invoice</label>
+            <language>en</language>
+            <name>x_1298471_easy_hot_hotel_invoice</name>
+            <plural>Invoices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-26 13:32:02</sys_created_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Invoice</sys_name>
+            <sys_package display_value="EasyHotel" source="x_1298471_easy_hot">77be019d9383421063ad30a97bba1033</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EasyHotel">77be019d9383421063ad30a97bba1033</sys_scope>
+            <sys_update_name>sys_documentation_x_1298471_easy_hot_hotel_invoice__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 13:59:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
